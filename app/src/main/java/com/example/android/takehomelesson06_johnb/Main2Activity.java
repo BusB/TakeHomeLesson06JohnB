@@ -22,7 +22,7 @@ public class Main2Activity extends AppCompatActivity {
         Double tip = subtotal * (tipPercent * .01);
         Double total = subtotal + tax + tip;
         DecimalFormat twoD = new DecimalFormat("#,###.00");
-        DecimalFormat noD = new DecimalFormat("#,###");
+        DecimalFormat noD = new DecimalFormat("#,###.##");
         TextView textView = findViewById(R.id.text_view_receipt);
         textView.setText("Subtotal: " + twoD.format(subtotal) + "\nTax (" + noD.format(taxPercent) + "%): " + twoD.format(tax) + "\nTip (" + noD.format(tipPercent) + "%): " + twoD.format(tip) + "\nTotal: " + twoD.format(total));
 

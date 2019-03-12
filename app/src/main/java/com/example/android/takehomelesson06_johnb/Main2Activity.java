@@ -27,6 +27,5 @@ public class Main2Activity extends AppCompatActivity {
         textView.setText("Subtotal: " + twoD.format(subtotal) + "\nTax (" + noD.format(taxPercent) + "%): " + twoD.format(tax) + "\nTip (" + noD.format(tipPercent) + "%): " + twoD.format(tip) + "\nTotal: " + twoD.format(total));
 
 
-
     }
 }

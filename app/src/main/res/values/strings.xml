@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TakeHomeLesson06-JohnB</string>
+    <string name="zero">0</string>
+    <string name="percent_sign">%</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Tax</string>
+    <string name="tip">Tip</string>
+    <string name="tip_calc">Tip Calculator</string>
+    <string name="your_receipt">Your Receipt</string>
+    <string name="enter">Enter</string>
+</resources>
